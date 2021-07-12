@@ -7,11 +7,12 @@
 :root {
    --color-title: #212121;
    --color-main: #757575;
-   --color-accent: #2196F3;
+   --color-accent: #2196f3;
 }
 
 body {
-   font-family: 'Roboto', sans-serif;
+   font-family: "Roboto", sans-serif;
+   letter-spacing: 0.03em;
    color: var(--color-main);
 }
 
@@ -22,28 +23,26 @@ body {
 .item {
    list-style: none;
 }
-/* End Components */
-/* Header */
-
 .logo {
-font-family: Raleway, sans-serif;
+   font-family: Raleway, sans-serif;
 
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: #000000;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.19;
+   color: #000000;
 }
-.logo-accent{
-color: var(--color-accent);
+.logo-accent {
+   color: var(--color-accent);
 }
+/* End Components */
 
-.link-main-nav{
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--color-title);
+/* Header */
+.link-main-nav {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+   color: var(--color-title);
 }
 .link-main-nav:hover,
 .link-main-nav:focus {
@@ -51,12 +50,12 @@ color: var(--color-title);
 }
 
 .link-contact {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--color-main);
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+   color: var(--color-main);
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .link-contact:hover,
@@ -65,3 +64,80 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* End header */
+
+/* Hero */
+.main-title {
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.36;
+   text-align: center;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+}
+.button {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.87;
+   text-align: center;
+   letter-spacing: 0.06em;
+   color: #ffffff;
+   background: var(--color-accent);
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+}
+/* End Hero */
+
+/* Особенности сайта */
+.feature-title {
+   font-size: 14px;
+   line-height: 1.14;
+   text-transform: uppercase;
+   color: var(--color-title);
+}
+.text-feature {
+   font-size: 14px;
+   line-height: 1.71;
+}
+/* End Особенностей сайта */
+
+/* Чем мы занимаемся */
+.title-description {
+   font-size: 36px;
+   line-height: 1.17;
+   text-align: center;
+   color: var(--color-title);
+}
+/* End чем мы занимаемся */
+
+/* Our team */
+.title-team {
+   font-size: 36px;
+   line-height: 1.17;
+   text-align: center;
+   color: var(--color-title);
+}
+.title-name-team {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.19;
+   text-align: center;
+   color: var(--color-title);
+}
+.profession {
+   font-size: 16px;
+   line-height: 1.19;
+   text-align: center;
+}
+/* End our team */
+
+/* Footer */
+.link-adress {
+   font-size: 14px;
+   line-height: 1.71;
+   font-style: normal;
+}
+.link-tel-email {
+   font-size: 14px;
+   font-style: normal;
+   line-height: 1.71;
+}
