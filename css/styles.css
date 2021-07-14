@@ -44,6 +44,7 @@ body {
    letter-spacing: 0.02em;
    color: var(--color-title);
 }
+
 .link-main-nav:hover,
 .link-main-nav:focus {
    color: var(--color-accent);
@@ -58,6 +59,9 @@ body {
    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.link-main-nav-accent {
+   color: var(--color-accent);
+}
 .link-contact:hover,
 .link-contact:focus {
    color: var(--color-accent);
@@ -140,4 +144,34 @@ body {
    font-size: 14px;
    font-style: normal;
    line-height: 1.71;
+}
+
+/* Portfolio */
+.button-portfolio {
+background: #F5F4FA;
+border-radius: 4px;
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+color: var(--color-title);
+
+cursor: pointer;
+}
+.button-portfolio:hover,
+.button-portfolio:focus  {
+   color: #FFFFFF;
+   background: var(--color-accent);
+}
+.title-cards {
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--color-title);
+}
+.description-cards {
+font-size: 16px;
+line-height: 1.87;
+color: var(--color-main);
 }
