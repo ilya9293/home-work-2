@@ -8,7 +8,7 @@
    --color-title: #212121;
    --color-main: #757575;
    --color-accent: #2196f3;
-   --color-background: #2F303A;
+   --color-background: #2f303a;
 }
 
 body {
@@ -63,7 +63,7 @@ body {
    line-height: 1.14;
    letter-spacing: 0.02em;
    color: var(--color-main);
-  }
+}
 
 .link-main-nav-accent {
    color: var(--color-accent);
@@ -87,7 +87,7 @@ body {
    letter-spacing: 0.06em;
    text-transform: uppercase;
 
-   color: #FFFFFF;
+   color: #ffffff;
 }
 .button {
    font-weight: 700;
@@ -101,6 +101,10 @@ body {
    border-radius: 4px;
    cursor: pointer;
    border: none;
+}
+.button:hover,
+.button:focus {
+   background-color: #188CE8;
 }
 /* End Hero */
 
@@ -155,19 +159,21 @@ body {
 
 /* Footer */
 .container.background {
-background-color: var(--color-background);
+   background-color: var(--color-background);
 }
 .link-adress {
    font-size: 14px;
    line-height: 1.71;
    letter-spacing: 0.03em;
    font-style: normal;
+   color: #ffffff;
 }
 .link-tel-email {
    font-size: 14px;
    font-style: normal;
    line-height: 1.71;
    letter-spacing: 0.03em;
+   color: rgba(255, 255, 255, 0.6);
 }
 .logo-footer {
    color: #ffffff;
